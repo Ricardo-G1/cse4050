@@ -1,0 +1,20 @@
+<p> 
+This is a file with a script element. 
+</p>
+<script>
+const o1 = {
+    x: 3,
+    y: -4
+};
+
+//o1 => s1
+const s1 = JSON.stringify(o1);
+console.log(s1);
+
+//s2 => o2
+const s2 = '{"a":33,"b":99}';
+const o2 = JSON.parse(s2);
+console.log(o2); 
+console.log(o2.a); 
+
+</script>
