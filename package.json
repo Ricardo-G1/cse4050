@@ -1,0 +1,22 @@
+{
+  "name": "cse4050",
+  "version": "1.0.0",
+  "description": "Git hub account for cse4050",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-G1/cse4050.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-G1/cse4050/issues"
+  },
+  "homepage": "https://github.com/Ricardo-G1/cse4050#readme",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
