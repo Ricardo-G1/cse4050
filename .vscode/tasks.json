@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "web server",
+            "label": "webserver",
             "type": "shell",
-            "command": "node_modules/http-server/bin/http-server .",
+            "command": "..node_modules/http-server/bin/http-server public",
             "problemMatcher": []
         }
 
