@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #657692;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /*chat box section*/
+.chat-box {
+    width: 400px;
+    height: 450px;
+    background-color: #fff ;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+/* about client*/
+
+.client{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    background-color: #77b3d4;
+    padding: 15px;
+}
+
+.client img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.client-status{
+    color: #fff;
+    padding: 15px;
+}
+
+.client-status p{
+    color: #019b01;
+    font-weight: bold;
+    font-size: 0.5cm;
+}
+
+
