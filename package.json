@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Ricardo-G1/cse4050#readme",
   "dependencies": {
-    "http-server": "^13.0.2"
+    "firebase": "^9.6.0",
+    "http-server": "^13.0.2",
+    "react-firebase-hooks": "^4.0.1"
   }
 }
